@@ -21,6 +21,7 @@ nav {
 .logo {
     max-width: 100px;
     padding: 0px;
+    vertical-align: middle;
 }
 
 .login-button {
@@ -29,8 +30,7 @@ nav {
 }
 
 .fa-bars {
-    padding: 0px 10px 10px 10px;
-    padding-right: 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 /* Video */
