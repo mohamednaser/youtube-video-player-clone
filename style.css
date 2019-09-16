@@ -1,9 +1,30 @@
-body{
+body {
     background-color: white;
 }
 
-
-.logo{
+.logo {
     max-width: 100px;
     padding: 5px;
+}
+
+.logInButton {
+    float: right;
+    margin: 5px;
+}
+
+.upload-video-div {
+    float: right;
+}
+
+.video-title {
+    font-size: 18px;
+}
+
+.number-of-views {
+    padding-top: 15px;
+}
+
+.recommended-videos{
+    background-color: red;
+    width: 50%;
 }

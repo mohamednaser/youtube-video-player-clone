@@ -13,19 +13,48 @@
     <!-- header will contain (logo , search bar , notifications , account logo ) -->
     <nav>
         <i class="fa fa-bars" aria-hidden="true"></i>
-    
+
         <img class="logo" src="https://davecmd.github.io/youtube-replica/yt_logo_rgb_light.png" />
-    
+
         <input type="search">
         <button type='button'><i class="fa fa-search" aria-hidden="true"></i></button>
-        <href='#'><i class="fa fa-video-camera" aria-hidden="true"></i></href>
-        <href='#'><i class="fa fa-th" aria-hidden="true"></i></href>
-        <href='#'><i class="fa fa-comment" aria-hidden="true"></i></href>
-        <href='#'><i class="fa fa-bell" aria-hidden="true"></i></href>
-        <button type='button'><i class="fa fa-user-circle" aria-hidden="true"></i>    SIGN IN</button>
+
+        <div class="upload-video-div">
+            <a href='#'><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+            <a href='#'><i class="fa fa-th" aria-hidden="true"></i></a>
+            <a href='#'><i class="fa fa-comment" aria-hidden="true"></i></a>
+            <a href='#'><i class="fa fa-bell" aria-hidden="true"></i></a>
+            <button type='button' class="logInButton"><i class="fa fa-user-circle" aria-hidden="true"></i> SIGN
+                IN</button>
+
+        </div>
+        <div class="containner">
+            <!-- Current Video  -->
+            <div class="videoInfo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cJOXu8CwDgM" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
 
 
+                <div class="video-title">Relaxing Flute Music, Sleep Music, Calm Music, Insomnia, Study ☯1949
+                    <div class="number-of-views">
+                        <span>123,123,000 views </span>
+                    </div>
+                    <div class="like-and-dislike-section">
+                        <i class="fa fa-thumbs-up fa-6" aria-hidden="true"></i> <span> 12 </span>
+                        <i class="fa fa-thumbs-down fa-6" aria-hidden="true"></i> <span> 123 </span>
 
+                    </div>
+                </div>
+            </div>
+
+            <!-- recommended videos section  -->
+            <div class="recommended-videos">
+                <div class="video-thumbnail">
+
+                </div>
+            </div>
+        </div>
 
     </nav>
     <div>
