@@ -1,6 +1,5 @@
 /* GENERAL RULES */
 
-
 body {
     background-color: #F9F9F9;
 }
@@ -13,7 +12,6 @@ body {
 nav {
     background-color: white;
     padding: 10px 0px 10px 0px;
-
 }
 
 /* Navigation Bar */
@@ -26,17 +24,33 @@ nav {
 
 .login-button {
     float: right;
-    margin: 5px;
+    margin-bottom: 10px;
+    color: #065FD4;
+    border: 1px;
+    border-style: solid;
+    border-color: #065FD4;
+    border-radius: 5%;
+    background-color: #F9F9F9;
 }
 
 .fa-bars {
     padding: 0px 10px 0px 10px;
 }
 
+.search-input {
+    margin-left: 25%;
+    padding-left: 15%;
+    margin-right: -5px;
+}
+
 /* Video */
 
 .upload-video-div {
     float: right;
+}
+
+.upload-video-div i{
+    padding-right: 10px;    
 }
 
 .video-title {
@@ -47,7 +61,6 @@ nav {
 .number-of-views {
     padding-top: 15px;
 }
-
 
 /* Video info and description */
 
@@ -98,6 +111,7 @@ nav {
     width: 30%;
     float: right;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .recommended-video-thumbnail {
