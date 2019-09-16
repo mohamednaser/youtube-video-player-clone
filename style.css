@@ -1,6 +1,16 @@
+/* GENERAL RULES */
+
+
 body {
     background-color: #F9F9F9;
 }
+
+.container {
+    padding-top: 10px;
+    max-width: 75%;
+}
+
+/* Navigation Bar */
 
 .logo {
     max-width: 100px;
@@ -11,6 +21,8 @@ body {
     float: right;
     margin: 5px;
 }
+
+/* Video */
 
 .upload-video-div {
     float: right;
@@ -25,20 +37,22 @@ body {
     padding-top: 15px;
 }
 
-.recommended-videos {
-    width: 30%;
-    float: right;
-    margin-left: 10px;
-}
 
-.container {
-    padding-top: 10px;
-    max-width: 75%;
-}
+/* Video info and description */
 
 .subscribe-button {
     float: right;
 }
+
+.video-info {
+    padding-top: 10p;
+}
+
+.user-info {
+    margin-right: 10px;
+}
+
+/* Comments */
 
 .comments-count {
     margin-right: 10px;
@@ -67,6 +81,14 @@ body {
     font-weight: bold;
 }
 
+/* Recommended videos */
+
+.recommended-videos {
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+
 .recommended-video-thumbnail {
     height: 100px;
     width: 150px;
@@ -80,14 +102,6 @@ body {
     margin-bottom: 15px;
 }
 
-.video-info {
-    padding-top: 10p;
-}
-
 .up-next-autoplay {
     margin-bottom: 10px;
-}
-
-.user-info {
-    margin-right: 10px;
 }
