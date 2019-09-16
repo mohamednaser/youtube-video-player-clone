@@ -65,3 +65,13 @@ body {
     line-height: 1.7;
     font-weight: bold;
 }
+
+.recommended-video-thumbnail {
+    height: 100px;
+    width: 150px;
+    float: left
+}
+
+.recommended-video-title {
+    fl
+}
