@@ -10,16 +10,27 @@ body {
     max-width: 75%;
 }
 
+nav {
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+
+}
+
 /* Navigation Bar */
 
 .logo {
     max-width: 100px;
-    padding: 5px;
+    padding: 0px;
 }
 
 .login-button {
     float: right;
     margin: 5px;
+}
+
+.fa-bars {
+    padding: 0px 10px 10px 10px;
+    padding-right: 10px;
 }
 
 /* Video */
