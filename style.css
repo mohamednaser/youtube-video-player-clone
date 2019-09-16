@@ -24,7 +24,12 @@ body {
     padding-top: 15px;
 }
 
-.recommended-videos{
+.recommended-videos {
     background-color: red;
-    width: 50%;
+    width: 30%;
+    float: right;
+}
+
+.videoInfo{
+    max-width: 75%;
 }
