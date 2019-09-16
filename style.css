@@ -28,9 +28,11 @@ body {
 .recommended-videos {
     width: 30%;
     float: right;
+    margin-left: 10px;
 }
 
 .container {
+    padding-top: 10px;
     max-width: 75%;
 }
 
@@ -68,13 +70,24 @@ body {
 .recommended-video-thumbnail {
     height: 100px;
     width: 150px;
-    float: left
+    float: left;
+    padding-right: 5px;
 }
-
-.recommended-video-title {}
 
 .recommended-video-info {
     display: inline-block;
     width: 100%;
     margin-bottom: 15px;
+}
+
+.video-info {
+    padding-top: 10p;
+}
+
+.up-next-autoplay {
+    margin-bottom: 10px;
+}
+
+.user-info {
+    margin-right: 10px;
 }
