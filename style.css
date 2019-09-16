@@ -7,7 +7,7 @@ body {
     padding: 5px;
 }
 
-.logInButton {
+.login-button {
     float: right;
     margin: 5px;
 }
@@ -17,7 +17,10 @@ body {
 }
 
 .video-title {
+    
     font-size: 18px;
+    border-bottom: 1px solid #dbdbdb;
+    
 }
 
 .number-of-views {
@@ -30,6 +33,20 @@ body {
     float: right;
 }
 
-.videoInfo{
+.video-info {
+}
+
+.user-info {
+    float:right
+
+}
+
+.container {
     max-width: 75%;
+}
+
+.user-pic {
+    border-radius: 100%;
+    float: left;
+    height: 50px;
 }
