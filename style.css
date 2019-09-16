@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #F9F9F9;
 }
 
 .logo {
@@ -26,7 +26,6 @@ body {
 }
 
 .recommended-videos {
-    background-color: red;
     width: 30%;
     float: right;
 }
@@ -72,6 +71,10 @@ body {
     float: left
 }
 
-.recommended-video-title {
-    fl
+.recommended-video-title {}
+
+.recommended-video-info {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
 }
