@@ -17,10 +17,8 @@ body {
 }
 
 .video-title {
-    
     font-size: 18px;
     border-bottom: 1px solid #dbdbdb;
-    
 }
 
 .number-of-views {
@@ -33,20 +31,37 @@ body {
     float: right;
 }
 
-.video-info {
-}
-
-.user-info {
-    float:right
-
-}
-
 .container {
     max-width: 75%;
 }
 
+.subscribe-button {
+    float: right;
+}
+
+.comments-count {
+    margin-right: 10px;
+}
+
 .user-pic {
-    border-radius: 100%;
+    border-radius: 50%;
     float: left;
     height: 50px;
+    width: 50px;
+    padding-right: 20px;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    max-width: 51px;
+    max-height: 50px;
+}
+
+.comment-features {
+    padding-top: 10px;
+}
+
+.comment-title {
+    line-height: 1.7;
+    font-weight: bold;
 }
