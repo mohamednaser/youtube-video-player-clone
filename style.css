@@ -5,8 +5,9 @@ body {
 }
 
 .container {
-    padding-top: 10px;
+    padding-top: 30px;
     max-width: 75%;
+    padding-left: 150px;
 }
 
 nav {
