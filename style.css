@@ -2,6 +2,7 @@
 
 body {
     background-color: #F9F9F9;
+    font-family: Roboto;
 }
 
 .container {
@@ -55,14 +56,24 @@ nav {
 }
 
 .video-title {
-    font-size: 18px;
     border-bottom: 1px solid #dbdbdb;
+    padding-top: 15px;
+    font-size: 24px;
+    display: block;
 }
 
 .number-of-views {
     padding-top: 15px;
+    color: #636363;
+    font-size: 17px;
+    display: inline-block
 }
 
+.like-and-dislike-section {
+    display: inline-block;
+    padding-left: 550px;
+    color: #636363;
+}
 /* Video info and description */
 
 .subscribe-button {
@@ -76,7 +87,9 @@ nav {
 .user-info {
     margin-right: 10px;
 }
-
+.line {
+    border-bottom: 1px solid #636363;
+}
 /* Comments */
 
 .comments-count {
