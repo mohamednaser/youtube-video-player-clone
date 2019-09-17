@@ -59,6 +59,8 @@ nav {
 
 .upload-video-div i {
     padding-right: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
 }
 
 .video-title {
@@ -146,7 +148,7 @@ nav {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-gap: 1px;
-    background-color: #2196F3;
+    /* background-color: #2196F3; */
 }
 
 .grid-container>div {
@@ -158,6 +160,7 @@ nav {
 
 .nav-bar {
     grid-column: 1 / 6;
+    background-color: white;
 }
 
 .played-video {
@@ -168,7 +171,7 @@ nav {
     grid-column: 1 / 5;
 }
 
-.comments {
+.grid-comments {
     grid-column: 1 / 5;
 }
 
