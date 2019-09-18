@@ -64,6 +64,7 @@ nav {
     padding-top: 15px;
     font-size: 24px;
     display: block;
+    width: 85%;
 }
 
 .number-of-views {
@@ -227,3 +228,20 @@ nav {
 .up-next-autoplay {
     margin-bottom: 10px;
 }
+
+.recommended-video-title {
+    color:black;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.recommended-video-channel,.recommended-video-views {
+    color: #636363;
+    font-family: Roboto;
+    font-size: 13px;
+
+
+}
+
