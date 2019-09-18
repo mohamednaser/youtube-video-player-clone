@@ -70,7 +70,7 @@ nav {
 .number-of-views {
     padding-top: 15px;
     color: #636363;
-    font-size: 17px;
+    font-size: 14px;
     display: inline-block
 }
 
@@ -78,6 +78,16 @@ nav {
     display: inline-block;
     padding-left: 550px;
     color: #636363;
+}
+
+.likes-share {
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: bold;
+}
+.like-share-elements {
+    padding-right: 10px;
+
 }
 
 /* Video info and description */
