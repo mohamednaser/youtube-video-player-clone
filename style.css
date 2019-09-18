@@ -119,6 +119,7 @@ nav {
     border-radius: 50%;
     max-width: 51px;
     max-height: 50px;
+    padding-right: 10px;
 }
 
 .comment-features {
@@ -128,6 +129,31 @@ nav {
 .comment-title {
     line-height: 1.7;
     font-weight: bold;
+}
+
+.comment-description {
+    padding-left: 65px;
+}
+.like-and-dislike-section-comments {
+    display: inline-block;
+    padding-left: 65px;
+    color: #636363;
+}
+
+.view-replies {
+    color:#0D0D0D;
+    font-family: Roboto;
+    font-weight: bold;
+    padding-left: 65px;
+}
+
+.reply-button {
+    color: #636363;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 15px;
+
 }
 
 /* Recommended videos */
