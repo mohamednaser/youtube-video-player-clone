@@ -7,8 +7,8 @@ body {
 
 .container {
     padding-top: 30px;
-    padding-left: 5%;
     max-width: 75%;
+    padding-left: 150px;
 }
 
 nav {
@@ -51,8 +51,8 @@ nav {
     float: right;
 }
 
-.upload-video-div i {
-    padding-right: 10px;
+.upload-video-div i{
+    padding-right: 10px;    
 }
 
 .video-title {
@@ -74,7 +74,6 @@ nav {
     padding-left: 550px;
     color: #636363;
 }
-
 /* Video info and description */
 
 .subscribe-button {
@@ -87,24 +86,20 @@ nav {
 
 .user-info {
     margin-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    border-top: 1px solid #dbdbdb;
-    width: 84%;
-}
-.num-subscribers{
-color: #636363;
 }
 
-.description-show-more{
-    padding-left: 7%;
-    padding-top: 15px;
-    color: #636363;
-}
-
-.username {
+.subscribe-button {
+    background-color: #CC353D;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-size: 14px;
     font-weight: bold;
+    border: none;
+    outline: none;
 }
+
 
 /* Comments */
 
