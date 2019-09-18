@@ -247,11 +247,18 @@ nav {
 
 }
 
-.recommended-video-channel,.recommended-video-views {
+.recommended-video-channel,.recommended-video-views, .autoplay {
     color: #636363;
     font-family: Roboto;
     font-size: 13px;
 
 
+}
+
+.fa-toggle-on {
+    padding-left: 11px;
+    font-size: 18px;
+    color: blue;
+}
 }
 
