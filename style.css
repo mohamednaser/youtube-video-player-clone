@@ -1,14 +1,14 @@
 /* GENERAL RULES */
 
 body {
-    background-color: #F9F9F9;
-    font-family: Roboto;
+  background-color: #F9F9F9;
+  font-family: Roboto;
 }
 
 .container {
-    padding-top: 30px;
-    max-width: 75%;
-    padding-left: 5%;
+  padding-top: 30px;
+  max-width: 75%;
+  padding-left: 5%;
 }
 
 nav {
@@ -260,5 +260,3 @@ nav {
     font-size: 18px;
     color: blue;
 }
-}
-
