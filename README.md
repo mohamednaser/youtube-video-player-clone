@@ -1,29 +1,19 @@
-This project aims to mimick the Youtube Video Player Page.
+<h1>Youtube Video Player Page Clone</h1>
 
-REQUIREMENTS
+The Youtube Video Player Page Clone project is aimed at applying the knowledge of basic HTML and CSS structure to build an exact copy of the Youtube Video Player Page.
 
-Navigation bar:
+<h1>Authors</h1>
 
-It has an embedded image that represents a logo.
-The logo is aligned to the leftmost part of the navbar.
-It has an input tag that represents a search bar.
-The search bar is aligned to the middle of the navbar.
-It has a button tag that represents the search button.
-The search button is at the end (rightmost part) of the search bar.
-It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
+This projects was executed by the duo of Marcos & Mohamed. 
 
-Video:
+<h1>Technologies used</h1>
 
-It is displayed.
-It shows the video title.
-It shows the number of views.
-It has like and dislike icons.
-It has a share button.
-It shows the avatar of the user who uploaded the video.
-It has a subscribe button.
+HTML and, CSS
 
-Sidebar Recommended videos:
+<h1>Setup</h1>
 
-It shows the recommended video’s thumbnail preview.
-It shows the title of the video.
-It shows the number of views.
+How to setup a repo of this page on your local machine:
+
+Open your git bash and cd to the location you'd like to put your files the run the command below.
+
+git clone https://github.com/mohamednaser/Embedding-Images-and-Video.git
