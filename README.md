@@ -4,7 +4,7 @@ The Youtube Video Player Page Clone project is aimed at applying the knowledge o
 
 <h1>Authors</h1>
 
-This project was executed by the duo of <a href = ""> Marcos </a> & <a href = "https://www.linkedin.com/in/mohamednaseramein/" > Mohamed </a>. 
+This project was executed by the duo of <a href = "https://www.linkedin.com/in/marcos-medeiros-6a079a18a/"> Marcos </a> & <a href = "https://www.linkedin.com/in/mohamednaseramein/" > Mohamed </a>. 
 
 <h1>Technologies used</h1>
 
