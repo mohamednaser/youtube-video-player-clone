@@ -1,264 +1,258 @@
 /* GENERAL RULES */
 
 body {
-    background-color: #F9F9F9;
-    font-family: Roboto;
+  background-color: #f9f9f9;
+  font-family: roboto, sans-serif;
 }
 
 .container {
-    padding-top: 30px;
-    max-width: 75%;
-    padding-left: 5%;
+  padding-top: 30px;
+  max-width: 75%;
+  padding-left: 5%;
 }
 
 nav {
-    background-color: white;
-    padding: 10px 0px 10px 0px;
+  background-color: white;
+  padding: 10px;
 }
 
 /* Navigation Bar */
 
 .logo {
-    max-width: 100px;
-    padding: 0px;
-    vertical-align: middle;
+  max-width: 100px;
+  vertical-align: middle;
 }
 
 .login-button {
-    float: right;
-    margin-bottom: 10px;
-    color: #065FD4;
-    border: 1px;
-    border-style: solid;
-    border-color: #065FD4;
-    border-radius: 5%;
-    background-color: #F9F9F9;
+  float: right;
+  margin-bottom: 10px;
+  color: #065fd4;
+  border: 1px;
+  border-style: solid;
+  border-color: #065fd4;
+  border-radius: 5%;
+  background-color: #f9f9f9;
 }
 
 .fa-bars {
-    padding: 0px 10px 0px 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .search-input {
-    margin-left: 25%;
-    padding-left: 15%;
-    margin-right: -5px;
+  margin-left: 25%;
+  padding-left: 15%;
+  margin-right: -5px;
 }
 
 /* Video */
 
 .upload-video-div {
-    float: right;
+  float: right;
 }
 
 .upload-video-div i {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .grid-item-comment {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .video-title {
-    border-bottom: 1px solid #dbdbdb;
-    padding-top: 15px;
-    font-size: 24px;
-    display: block;
-    width: 85%;
+  border-bottom: 1px solid #dbdbdb;
+  padding-top: 15px;
+  font-size: 24px;
+  display: block;
+  width: 85%;
 }
 
 .number-of-views {
-    padding-top: 15px;
-    color: #636363;
-    font-size: 14px;
-    display: inline-block
+  padding-top: 15px;
+  color: #636363;
+  font-size: 14px;
+  display: inline-block;
 }
 
 .like-and-dislike-section {
-    display: inline-block;
-    padding-left: 550px;
-    color: #636363;
+  display: inline-block;
+  padding-left: 550px;
+  color: #636363;
 }
 
 .likes-share {
-    font-family: roboto;
-    font-size: 13px;
-    font-weight: bold;
+  font-family: roboto, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
 }
-.like-share-elements {
-    padding-right: 10px;
 
+.like-share-elements {
+  padding-right: 10px;
 }
 
 /* Video info and description */
 
-.subscribe-button {
-    float: right;
-}
-
 .video-info {
-    padding-top: 10p;
+  padding-top: 10px;
 }
 
 .user-info {
-    margin-right: 10px;
-    padding-top: 20px;
+  margin-right: 10px;
+  padding-top: 20px;
 }
 
 .user-name {
-    font-weight: bold;
-    font-family: roboto;
+  font-weight: bold;
+  font-family: roboto, sans-serif;
 }
 
 .num-subscribers {
-    color: #606060;
+  color: #606060;
 }
 
 .video-description {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .description-show-more {
-    padding-left: 68px;
-    color: #606060;
-    font-size: 13px;
+  padding-left: 68px;
+  color: #606060;
+  font-size: 13px;
 }
 
 .subscribe-button {
-    background-color: #CC353D;
-    color: white;
-    padding: 10px 16px;
-    border-radius: 2px;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: bold;
-    border: none;
-    outline: none;
+  background-color: #cc353d;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 2px;
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  float: right;
 }
 
 /* Comments */
 
 .comments-review {
-    padding-top: 10px;
-    margin-top: 10px;
-    border-top: 1px solid #dbdbdb;
-    width: 85%;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #dbdbdb;
+  width: 85%;
 }
 
 .comments-count {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .grid-comments {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .fa-sort-amount-desc {
-    padding-left: 5%;
-    color: #636363;
+  padding-left: 5%;
+  color: #636363;
 }
 
-.sort-by{
-    color: #636363;
+.sort-by {
+  color: #636363;
 }
 
 .user-pic {
-    border-radius: 50%;
-    float: left;
-    height: 50px;
-    width: 50px;
-    padding-right: 20px;
+  border-radius: 50%;
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding-right: 20px;
 }
 
 .circle-icon {
-    border-radius: 50%;
-    max-width: 51px;
-    max-height: 50px;
-    padding-right: 10px;
-    vertical-align: middle;
+  border-radius: 50%;
+  max-width: 51px;
+  max-height: 50px;
+  padding-right: 10px;
+  vertical-align: middle;
 }
 
 .comment-features {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .comment-title {
-    line-height: 1.7;
-    font-weight: bold;
+  line-height: 1.7;
+  font-weight: bold;
 }
 
 .comment-description {
-    padding-left: 65px;
+  padding-left: 65px;
 }
 
 .like-and-dislike-section-comments {
-    display: inline-block;
-    padding-left: 65px;
-    color: #636363;
+  display: inline-block;
+  padding-left: 65px;
+  color: #636363;
 }
 
 .view-replies {
-    color: #0D0D0D;
-    font-family: Roboto;
-    font-weight: bold;
-    padding-left: 65px;
+  color: #0d0d0d;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  padding-left: 65px;
 }
 
 .reply-button {
-    color: #636363;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 13px;
-    padding-left: 15px;
+  color: #636363;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  padding-left: 15px;
 }
 
 /* Recommended videos */
 
 .recommended-videos {
-    width: 30%;
-    float: right;
-    margin-left: 10px;
-    margin-top: 10px;
+  width: 30%;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .recommended-video-thumbnail {
-    height: 100px;
-    width: 150px;
-    float: left;
-    padding-right: 5px;
+  height: 100px;
+  width: 150px;
+  float: left;
+  padding-right: 5px;
 }
 
 .recommended-video-info {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .up-next-autoplay {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .recommended-video-title {
-    color:black;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: bold;
-
+  color: black;
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.recommended-video-channel,.recommended-video-views, .autoplay {
-    color: #636363;
-    font-family: Roboto;
-    font-size: 13px;
-
-
+.recommended-video-channel,
+.recommended-video-views,
+.autoplay {
+  color: #636363;
+  font-family: roboto, sans-serif,;
+  font-size: 13px;
 }
 
 .fa-toggle-on {
-    padding-left: 11px;
-    font-size: 18px;
-    color: blue;
+  padding-left: 11px;
+  font-size: 18px;
+  color: blue;
 }
-}
-
