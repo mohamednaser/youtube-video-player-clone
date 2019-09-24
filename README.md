@@ -18,4 +18,4 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 git clone <a href= "https://github.com/mohamednaser/Embedding-Images-and-Video.git"> from this Repo </a> 
 
-Live version <a href="https://mohamednaser.github.io/Embedding-Images-and-Video/"> here </a>
+Live version <a href="https://mohamednaser.github.io/youtube-video-player-clone/"> here </a>
